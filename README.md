@@ -28,4 +28,4 @@ A aplicação web **PrimeiroPasso** tem como foco principal ajudar jovens que pr
 ### ▶️ Como rodar o projeto
 1. Baixe o projeto
 2. Abra o arquivo `index.html` no navegador
-Pronto!
+Pronto! 
