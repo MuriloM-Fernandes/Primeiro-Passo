@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #0E1A3A, #513690, #8B5CF6);
+    color: #FFFFFF;
+}
+
+header {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    background: linear-gradient(120deg, #0E1A3A, #513690, #8B5CF6);
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.apresentacao {
+    text-align: center;
+    margin: 50px auto 40px;
+    width: 90%;
+}
+
+.apresentacao p:first-child {
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.apresentacao h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.apresentacao p:last-child {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.opcoes {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.card-jovem, .card-empresa {
+    flex: 1;
+    padding: 30px;
+    border-radius: 30px;
+    min-height: 380px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.card-jovem {
+    background: linear-gradient(135deg, #8848df, #311C62);
+}
+
+.card-empresa {
+    background: #0E1A3A;
+}
+
+.card-jovem h2, .card-empresa h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.card-jovem ul, .card-empresa ul {
+    padding-left: 30px;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+
+.card-jovem a, .card-empresa a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.card-jovem a {
+    background: white;
+    color: #813de0;
+}
+
+.card-empresa a {
+    background: linear-gradient(90deg, #8848df, #8B5CF6);
+    color: #FFFFFF;
+}
+
+.barras {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    height: 145px;
+}
+
+.barras span {
+    display: block;
+    width: 35px;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-jovem .barras span:nth-child(1) {
+    height: 65px;
+    background: #8848df;
+}
+
+.card-jovem .barras span:nth-child(2) {
+    height: 105px;
+    background: #8B5CF6;
+}
+
+.card-jovem .barras span:nth-child(3) {
+    height: 145px;
+    background: #BEAFDF;
+}
+
+.card-empresa .barras span:nth-child(1) {
+    height: 65px;
+    background: #8c79b9;
+}
+
+.card-empresa .barras span:nth-child(2) {
+    height: 105px;
+    background: #9250e9;
+}
+
+.card-empresa .barras span:nth-child(3) {
+    height: 145px;
+    background: #513690;
+}
